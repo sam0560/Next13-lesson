@@ -1,9 +1,15 @@
-import React from 'react'
+import TicketList from "./TicketList";
 
-export default function tickets() {
+export default function Tickets() {
   return (
     <main>
-      <h1>Tickets</h1>
+      <nav>
+        <div>
+          <h2>Tickets</h2>
+          <p><small>Currently open tickets.</small></p>
+        </div>
+      </nav>
+      <TicketList />
     </main>
   )
 }
